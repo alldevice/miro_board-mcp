@@ -15,7 +15,7 @@ class Filter:
     class Valves(BaseModel):
         priority: int = Field(default=0)
         miro_server_url: str = Field(
-            default="https://",
+            default="http://localhost:8001",  # Or "https://your-server.com"
             description="Your Miro Server URL"
         )
         enabled: bool = Field(default=True)

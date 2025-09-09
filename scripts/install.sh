@@ -33,7 +33,7 @@ cd ~/mcp-servers/miro_board-mcp
 
 # Clone repository
 echo "📥 Cloning repository..."
-git clone https://github.com/yourusername/miro-board-mcp .
+git clone https://github.com/alldevice/miro-board-mcp .
 
 # Setup Python environment
 echo "🐍 Setting up Python environment..."

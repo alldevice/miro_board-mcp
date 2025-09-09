@@ -23,7 +23,7 @@ A production-ready, self-hosted server that bridges MIRO boards with AI assistan
 ### Local Development
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/miro-board-mcp
+git clone https://github.com/alldevice/miro-board-mcp
 cd miro-board-mcp
 
 # Install dependencies

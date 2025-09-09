@@ -28,7 +28,7 @@ async def test_mcp_server():
         print("\n2. Testing initialize (JSON-RPC)...")
         try:
             response = await client.post(
-                "http://localhost:8001/messages",
+                "http://localhost:8001/sse",
                 json={
                     "jsonrpc": "2.0",
                     "method": "initialize",
@@ -54,7 +54,7 @@ async def test_mcp_server():
         print("\n3. Testing tools/list...")
         try:
             response = await client.post(
-                "http://localhost:8001/messages",
+                "http://localhost:8001/sse",
                 json={
                     "jsonrpc": "2.0",
                     "method": "tools/list",
@@ -80,7 +80,7 @@ async def test_mcp_server():
         TEST_BOARD_ID = "uXjVJLyzX0A="  # Replace with actual board ID
         try:
          response = await client.post(
-             "http://localhost:8001/messages",
+             "http://localhost:8001/sse",
              json={
                  "jsonrpc": "2.0",
                  "method": "tools/call",

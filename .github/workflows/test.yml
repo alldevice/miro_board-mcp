@@ -7,4 +7,4 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
       - run: pip install -r requirements.txt
-      - run: python -m pytest tests/
+      - run: python test_mcp_client.py
